@@ -1,0 +1,1059 @@
+{"CLIENTES":[
+    {
+        "NIT": "1.017.130.175-0",
+        "NOMBRE": "JUAN SEBASTIAN CHILAMACK BENAVIDES",
+        "DIRECCION": "CL 43 SUR No 46A - 56 APT 110",
+        "TELEFONO": "3323717"
+    },
+    {
+        "NIT": "1040736943",
+        "NOMBRE": "JUAN DAVID JIMENEZ",
+        "DIRECCION": "CARRERA 50 C No 29 - 11",
+        "TELEFONO": "3127350231"
+    },
+    {
+        "NIT": "15.333.066-1",
+        "NOMBRE": "GUSTAVO ENRIQUE PEREZ RINCON",
+        "DIRECCION": "CALLE 81 No 52D-160",
+        "TELEFONO": "6015196"
+    },
+    {
+        "NIT": "15.442.935-2",
+        "NOMBRE": "WALTER ANDRES QUINTERO MARTINEZ",
+        "DIRECCION": "CARRERA 46 54-28",
+        "TELEFONO": "561 06 78"
+    },
+    {
+        "NIT": "15530788",
+        "NOMBRE": "EVER ATEHORTUA OSPINA",
+        "DIRECCION": "CALLE 75 N° 49-24",
+        "TELEFONO": "6009948"
+    },
+    {
+        "NIT": "1564312",
+        "NOMBRE": "JAMES GARZON",
+        "DIRECCION": "CLL 67 # 67 - 39",
+        "TELEFONO": "765238475"
+    },
+    {
+        "NIT": "3.353.406-2",
+        "NOMBRE": "JOSE BAENA SANTA - MUNDO ENCHAPES",
+        "DIRECCION": "CR 65 No 97 - 81",
+        "TELEFONO": "2677919"
+    },
+    {
+        "NIT": "38.894.785-7",
+        "NOMBRE": "MARY SOL HERRERA ALVAREZ - CARNICOS TERNEZ",
+        "DIRECCION": "CARRERA 33 N° 47-39",
+        "TELEFONO": "2282529"
+    },
+    {
+        "NIT": "43.092.776-7",
+        "NOMBRE": "CLAUDIA PATRICIA ZAMBRANO TRIANA",
+        "DIRECCION": "CALLE 28 No 55 - 32",
+        "TELEFONO": "2356884"
+    },
+    {
+        "NIT": "43.222.587-0",
+        "NOMBRE": "VANESSA LONDOÑO U.-ELECTROIMPORTADOS",
+        "DIRECCION": "CALLE 52 No 55- 83",
+        "TELEFONO": "5131145"
+    },
+    {
+        "NIT": "70.116.819-9",
+        "NOMBRE": "GUILLERMO LEON OSORIO ESTRADA",
+        "DIRECCION": "CARRERA 65 N° 25 - 56",
+        "TELEFONO": "2355460"
+    },
+    {
+        "NIT": "71.730.845-7",
+        "NOMBRE": "CARLOS MARIO GARCES VALENCIA",
+        "DIRECCION": "CALLE 33 N° 64 - 132",
+        "TELEFONO": "444 2176"
+    },
+    {
+        "NIT": "71790077",
+        "NOMBRE": "ALEJANDRO SEGURA",
+        "DIRECCION": "carrera 53 N° 38 - 39",
+        "TELEFONO": "301 570 8396"
+    },
+    {
+        "NIT": "71.794.732-8",
+        "NOMBRE": "FABIAN DARIO PARRA NARANJO",
+        "DIRECCION": "CALLE 58 N° 92b 20 AP 102",
+        "TELEFONO": "300 618 25 10"
+    },
+    {
+        "NIT": "71759599",
+        "NOMBRE": "EDWARD SANTIAGO VILLADA CASTAÑEDA",
+        "DIRECCION": "CALLE 4 SUR  No 55-16",
+        "TELEFONO": "2557761"
+    },
+    {
+        "NIT": "75.051.564-3",
+        "NOMBRE": "ELKIN MARIO OSORIO QUINTERO",
+        "DIRECCION": "CARRERA 55 N° 69 - 58",
+        "TELEFONO": "377 77 21"
+    },
+    {
+        "NIT": "800.002.504-1",
+        "NOMBRE": "NICRO LTDA",
+        "DIRECCION": "CALLE 69 No 44 - 105",
+        "TELEFONO": "2330819"
+    },
+    {
+        "NIT": "800.027.374-9",
+        "NOMBRE": "C.I. TECNOLOGIA ALIMENTARIA S.A.  ",
+        "DIRECCION": "CARRERA 50 GG 12 SUR 83",
+        "TELEFONO": "2854400"
+    },
+    {
+        "NIT": "800.035.290-2",
+        "NOMBRE": "EUROCERAMICA S.A.",
+        "DIRECCION": "CARRERA 43C N° 7D 43",
+        "TELEFONO": "551 21 55"
+    },
+    {
+        "NIT": "800.047.031-3",
+        "NOMBRE": "TABLEMAC S.A.",
+        "DIRECCION": "CARRERA 43 A N°127 P 3 ED RECIFE",
+        "TELEFONO": "384 10 00"
+    },
+    {
+        "NIT": "800.059.608-4",
+        "NOMBRE": "INDUSTRIAS ST. EVEN S.A.",
+        "DIRECCION": "CARRERA 46 No 30 - 61",
+        "TELEFONO": "5767970"
+    },
+    {
+        "NIT": "800.071.617-1",
+        "NOMBRE": "CUMMINS DE LOS ANDES S.A.",
+        "DIRECCION": "AV CIUDAD DE CALI 11 - 22",
+        "TELEFONO": "2948444"
+    },
+    {
+        "NIT": "800.094.654-1",
+        "NOMBRE": "MEDICION Y CONTROL S.A.S.",
+        "DIRECCION": "CALLE 11 C SUR No 48B-06",
+        "TELEFONO": "448 29 86"
+    },
+    {
+        "NIT": "800.115.448-2",
+        "NOMBRE": "SERVIREFRIAIRE S.A.",
+        "DIRECCION": "CARRERA 50 D N° 6 SUR 34 INT 101",
+        "TELEFONO": "360 02 40"
+    },
+    {
+        "NIT": "800.115.550-6",
+        "NOMBRE": "RYCAR S.A.",
+        "DIRECCION": "AV. 42  No 52-32",
+        "TELEFONO": "4833157"
+    },
+    {
+        "NIT": "800.131.350-7",
+        "NOMBRE": "METAL MECANICA MEBUM S.A.S.",
+        "DIRECCION": "CALLE 75 B No 64 B 63",
+        "TELEFONO": "2578560"
+    },
+    {
+        "NIT": "800.151.988-0",
+        "NOMBRE": "SETAS COLOMBIANAS S.A.",
+        "DIRECCION": "KM 20 VIA YARUMAL LLANOS DE CUIVA",
+        "TELEFONO": "8601142"
+    },
+    {
+        "NIT": "800.161.635-9",
+        "NOMBRE": "ESMALGRES S.A.S.",
+        "DIRECCION": "CARRERA 52 Nº 57 A 23",
+        "TELEFONO": "3223022"
+    },
+    {
+        "NIT": "800.169.165-5",
+        "NOMBRE": "SUPER POLLO PAISA S.A.S",
+        "DIRECCION": "AUTOPISTA NORTE KM 5 HATILLO, BARBOSA",
+        "TELEFONO": "4070494"
+    },
+    {
+        "NIT": "800.196.632-8",
+        "NOMBRE": "ARTESA S.A.S.",
+        "DIRECCION": "CARRERA 41 N° 46 - 115",
+        "TELEFONO": "4482674"
+    },
+    {
+        "NIT": "800.198.020-1",
+        "NOMBRE": "CARNES CASA BLANCA S.A.",
+        "DIRECCION": "CALLE 72 No 64 - 115",
+        "TELEFONO": "4416777"
+    },
+    {
+        "NIT": "800.198.567-6",
+        "NOMBRE": "FERROCONTROLES S.A.S.",
+        "DIRECCION": "CARRERA 50 No 41 - 60",
+        "TELEFONO": "3817373"
+    },
+    {
+        "NIT": "800.202.080-9",
+        "NOMBRE": "PRODUCTORA ANDINA DE COLORANTES S.A.S.",
+        "DIRECCION": "CARRERA 51 N° 6 SUR 45",
+        "TELEFONO": "3615888"
+    },
+    {
+        "NIT": "800.224.082-8",
+        "NOMBRE": "COLOMBIANA DE CONTROLES S.A.S.",
+        "DIRECCION": "CALLE 7 SUR No 51 A 21 INT 172 P.3",
+        "TELEFONO": "3615577"
+    },
+    {
+        "NIT": "800.254..257-8",
+        "NOMBRE": "SIMAC S.A.S",
+        "DIRECCION": "CALLE 35 D No 90-22",
+        "TELEFONO": "4480057"
+    },
+    {
+        "NIT": "811.000.646-1",
+        "NOMBRE": "INCONTROL S.A.S.",
+        "DIRECCION": "TRANSVERSAL 33 A SUR 31 E 50",
+        "TELEFONO": "270 44 00"
+    },
+    {
+        "NIT": "811.004.746-6",
+        "NOMBRE": "ANAYCO S.A.S.",
+        "DIRECCION": "CARRERA 83 A N° 33-78",
+        "TELEFONO": "448 28 28"
+    },
+    {
+        "NIT": "811.010.839-7",
+        "NOMBRE": "IBEROTEC S.A.S.",
+        "DIRECCION": "CARRERA 42 N° 54 A 71 BODEGA 115  ",
+        "TELEFONO": "444 1223"
+    },
+    {
+        "NIT": "811.011.332-1",
+        "NOMBRE": "INVERSORES Y CONTROLES LTDA.",
+        "DIRECCION": "CARRERA 42 N° 54 A 155",
+        "TELEFONO": "448 30 36"
+    },
+    {
+        "NIT": "811.014.994-9",
+        "NOMBRE": "COMPAÑIA DE GALLETAS NOEL S.A.S",
+        "DIRECCION": "CARRERA 52 Nº 238 AV. GUAYABAL",
+        "TELEFONO": "3659999"
+    },
+    {
+        "NIT": "811.015.602-1",
+        "NOMBRE": "SOCIEDAD CENTRAL GANADERA S.A",
+        "DIRECCION": "CALLE 103 EE No 63 D 70",
+        "TELEFONO": "4710183"
+    },
+    {
+        "NIT": "811.016.192-8",
+        "NOMBRE": "IPS UNIVERSITARIA",
+        "DIRECCION": "CARRERA 52 No 68 - 05",
+        "TELEFONO": "5167300"
+    },
+    {
+        "NIT": "811.018.218-1",
+        "NOMBRE": "INDUMAQUINAS S.A.S",
+        "DIRECCION": "CALLE 36 No 54-15",
+        "TELEFONO": "448 98 94"
+    },
+    {
+        "NIT": "811.018.245-9",
+        "NOMBRE": "GAS Y GAS S.A.S.",
+        "DIRECCION": "CARRERA 50A  No 77B-69",
+        "TELEFONO": "3739888"
+    },
+    {
+        "NIT": "811.019.880-0",
+        "NOMBRE": "ANTIOQUEÑA DE PORCINOS S.A.S.",
+        "DIRECCION": "CALLE 11 No 10 - 16",
+        "TELEFONO": "444 56 17"
+    },
+    {
+        "NIT": "811.019.984-8",
+        "NOMBRE": "PROELECTRICO REPRESENTACIONES S.A.",
+        "DIRECCION": "CARRERA 42 No 75 - 367 CENTRO IND SUR",
+        "TELEFONO": "4441284"
+    },
+    {
+        "NIT": "811.024.942-9",
+        "NOMBRE": "COLORISA S.A.",
+        "DIRECCION": "Calle 84 Sur no 37-15 Bodega 11",
+        "TELEFONO": "4484777"
+    },
+    {
+        "NIT": "811.025.080-1",
+        "NOMBRE": "A-MAQ S.A.",
+        "DIRECCION": "CALLE 26 CARRERA 81 - 51",
+        "TELEFONO": "341 72 17"
+    },
+    {
+        "NIT": "811.025.446-1",
+        "NOMBRE": "TRONEX S.A.",
+        "DIRECCION": "CR67 N 1 SUR 92",
+        "TELEFONO": "4488090"
+    },
+    {
+        "NIT": "811.026.327-8",
+        "NOMBRE": "HELADOS BUGUI S.A.S",
+        "DIRECCION": "CARRERA 73  No. 29-20",
+        "TELEFONO": "2568417"
+    },
+    {
+        "NIT": "811.027.993-8",
+        "NOMBRE": "LABORATORIO DE COSMETICOS NACIONALES LIMITADA",
+        "DIRECCION": "CARRERA 65 No. 45 A 28",
+        "TELEFONO": "4300900"
+    },
+    {
+        "NIT": "811.029.917-7",
+        "NOMBRE": "REPRESENTACIONES IND. R.D.V. ANT. S.A.S",
+        "DIRECCION": "CARRERA 66 B AV. BOLIVARIANA No 38 - 32",
+        "TELEFONO": "235 00 80"
+    },
+    {
+        "NIT": "811.030.294-9",
+        "NOMBRE": "FERRETERIA DISTRIVALVULAS S.A.S.",
+        "DIRECCION": "CALLE 29 D No 55-60",
+        "TELEFONO": "444 07 02 - 351 21 16"
+    },
+    {
+        "NIT": "811.030.730-9",
+        "NOMBRE": "DOXA INTERNACIONAL S.A.S.",
+        "DIRECCION": "CARRERA 74N! 30B - 94",
+        "TELEFONO": "580 30 30"
+    },
+    {
+        "NIT": "811.031.652-7",
+        "NOMBRE": "TABORTEX S.A.S.",
+        "DIRECCION": "CARRERA 45A  No. 72-44",
+        "TELEFONO": "2818844"
+    },
+    {
+        "NIT": "811.032.538-1",
+        "NOMBRE": "SUMINISTROS INGENIERIA Y SOLUCIONES S.A.",
+        "DIRECCION": "CARRERA 51B N° 12 SUR -77",
+        "TELEFONO": "444 1804"
+    },
+    {
+        "NIT": "811.032.854-2",
+        "NOMBRE": "UN SOLO PROVEEDOR S.A.",
+        "DIRECCION": "CARRERA 45 A CALLE 67 B 51",
+        "TELEFONO": "377 33 05"
+    },
+    {
+        "NIT": "811.035.741-2",
+        "NOMBRE": "INDUSTRIA DE ALIMENTOS ZENU S.A.S",
+        "DIRECCION": "CARRERA 64 C No 104-03 AUTOPISTA NORTE",
+        "TELEFONO": "4705222"
+    },
+    {
+        "NIT": "811.044.814-1",
+        "NOMBRE": "C.I. LEONISA S.A",
+        "DIRECCION": "CARRERA 51 N° 13-158",
+        "TELEFONO": "350 61 00"
+    },
+    {
+        "NIT": "811.045.552-1",
+        "NOMBRE": "MULTIFILCO S.A.S",
+        "DIRECCION": "CALLE 46 N° 41 - 40",
+        "TELEFONO": "372 17 60"
+    },
+    {
+        "NIT": "811.047.163-7",
+        "NOMBRE": "ILUMINACION Y ENERGIA S.A.S",
+        "DIRECCION": "CALLE 32 D No 80B - 60",
+        "TELEFONO": "4120069"
+    },
+    {
+        "NIT": "830.505.238-5",
+        "NOMBRE": "INSE GROUP S.A.S",
+        "DIRECCION": "AVENIDA 2 No 20-50 SAN LUIS",
+        "TELEFONO": "5844426"
+    },
+    {
+        "NIT": "860.000.656-1",
+        "NOMBRE": "HMV INGENIEROS LTDA",
+        "DIRECCION": "CARRERA 43 A No 11 A - 80",
+        "TELEFONO": "3706666"
+    },
+    {
+        "NIT": "860.001.710-6",
+        "NOMBRE": "VANSOLIX S.A. EN REESTRUCTURACION",
+        "DIRECCION": "CALLE 28 SUR No 43 A 71",
+        "TELEFONO": "2704088"
+    },
+    {
+        "NIT": "860.008.448-2",
+        "NOMBRE": "MEALS MERCADEO DE ALIMENTOS DE COLOMBIA S.A.S",
+        "DIRECCION": "CALLE 48 A No 36 B - 03 KM 2",
+        "TELEFONO": "8881818"
+    },
+    {
+        "NIT": "860.017.055-1",
+        "NOMBRE": "PRODUCTOS ALIMENTICIOS DORIA S.A.S.",
+        "DIRECCION": "KM 5.6 TRONCAL DE OCCIDENTE",
+        "TELEFONO": "8293600"
+    },
+    {
+        "NIT": "860.031.068-3",
+        "NOMBRE": "INSTRUMENTOS & CONTROLES S.A.",
+        "DIRECCION": "CALLE 39 Nº 24 - 45  ",
+        "TELEFONO": "2088080"
+    },
+    {
+        "NIT": "860.035.047-7",
+        "NOMBRE": "INTERQUIM S.A",
+        "DIRECCION": "CALLE 10 SUR No 50 FF 28 PRIMER PLANO OF. 402",
+        "TELEFONO": "3618888"
+    },
+    {
+        "NIT": "860.511.571-7",
+        "NOMBRE": "ELECTRICAS BOGOTA LTDA.",
+        "DIRECCION": "CALLE 16 No 12-56",
+        "TELEFONO": "344 48 88"
+    },
+    {
+        "NIT": "890.105.927-3",
+        "NOMBRE": "C.I FARMACAPSULAS S.A.",
+        "DIRECCION": "CALLE 79 B # 78 C - 21",
+        "TELEFONO": "330 41 99"
+    },
+    {
+        "NIT": "890.304.130-4",
+        "NOMBRE": "ALIMENTOS CARNICOS S.A.S.",
+        "DIRECCION": "CARRERA 40  No 12A-13 ZN ACOPI",
+        "TELEFONO": "6912121"
+    },
+    {
+        "NIT": "890.399.380-1",
+        "NOMBRE": "NOVUS AUTOMATIZACION COLOMBIA S.A.S",
+        "DIRECCION": "CARRERA 16  No 79-76  OF. 302",
+        "TELEFONO": "530 16 71"
+    },
+    {
+        "NIT": "890.503.314-6",
+        "NOMBRE": "CERAMICAS ITALIA S.A.",
+        "DIRECCION": "AVENIDA 3 CALLE 23 AN ZONA INDUSTRIAL",
+        "TELEFONO": "578 98 00"
+    },
+    {
+        "NIT": "890.900.028-7",
+        "NOMBRE": "ELECTRA S.A.",
+        "DIRECCION": "CALLE 49 SUR No 46 - 11",
+        "TELEFONO": "4448232"
+    },
+    {
+        "NIT": "890.900.098-2",
+        "NOMBRE": "LANDERS & CIA S.A.",
+        "DIRECCION": "CARRERA 53 N° 30 - 27",
+        "TELEFONO": "350 00 60"
+    },
+    {
+        "NIT": "890.900.120-7",
+        "NOMBRE": "SUMINISTROS DE COLOMBIA S.A.",
+        "DIRECCION": "CRA 49  No 67 SUR-520  AV REGIONAL",
+        "TELEFONO": "3058200"
+    },
+    {
+        "NIT": "890.900.161-9",
+        "NOMBRE": "PRODUCTOS FAMILIA S.A.",
+        "DIRECCION": "CARRERA 50 N° 8 SUR 117",
+        "TELEFONO": "3609500"
+    },
+    {
+        "NIT": "890.900.163-3",
+        "NOMBRE": "ALFARERA SANTA RITA S.A.",
+        "DIRECCION": "CALLE 28  No. 87-33  INT. 170",
+        "TELEFONO": "2388052"
+    },
+    {
+        "NIT": "890.900.281-4",
+        "NOMBRE": "INDUSTRIAS HACEB S.A.",
+        "DIRECCION": "CALLE 59 # 55 - 80 Km. 13",
+        "TELEFONO": "400 5000"
+    },
+    {
+        "NIT": "890.900.372-6",
+        "NOMBRE": "PLASTEXTIL S.A.S.",
+        "DIRECCION": "CARRERA 44 No 28 - 36",
+        "TELEFONO": "4442440"
+    },
+    {
+        "NIT": "890.900.424-0",
+        "NOMBRE": "MICROPLAST ANTONIO PALACIO & COMPAÑIA S.A.S",
+        "DIRECCION": "CARRERA 50 E 8 SUR 63",
+        "TELEFONO": "255 77 16"
+    },
+    {
+        "NIT": "890.900.453-4",
+        "NOMBRE": "PEGAUCHO S.A.S",
+        "DIRECCION": "CARRERA 50 No 97B SUR 301",
+        "TELEFONO": "3093939"
+    },
+    {
+        "NIT": "890.900.559-6",
+        "NOMBRE": "PLASTICOS MEDELLIN S.A.S.",
+        "DIRECCION": "CALLE 37 N° 42 - 354 AV PILSEN",
+        "TELEFONO": "3716299"
+    },
+    {
+        "NIT": "890.900.769-6",
+        "NOMBRE": "AUTOMATIZACION S.A.",
+        "DIRECCION": "CARRERA 44 No 57 SUR 67",
+        "TELEFONO": "378 66 00"
+    },
+    {
+        "NIT": "890.901.446-7",
+        "NOMBRE": "TROPICAL COFFEE COMPANY S.A.S",
+        "DIRECCION": "CALLE 18 No 4 - 249 ZONA IND. GAIRA",
+        "TELEFONO": "4228046"
+    },
+    {
+        "NIT": "890.903.532-1",
+        "NOMBRE": "INDUSTRIA COLOMBIANA DE CAFE S.A.S.",
+        "DIRECCION": "CALLE 8 SUR  No 50-67",
+        "TELEFONO": "2856600"
+    },
+    {
+        "NIT": "890.903.711-3",
+        "NOMBRE": "PROCESADORA DE LECHES S.A.",
+        "DIRECCION": "CALLE 9A CON CRA 30 CERETE",
+        "TELEFONO": "7746710"
+    },
+    {
+        "NIT": "890.903.939-5",
+        "NOMBRE": "GASEOSAS POSADA TOBON S.A.",
+        "DIRECCION": "CALLE 52 No 47 - 42",
+        "TELEFONO": "5765100 - 4549431"
+    },
+    {
+        "NIT": "890.904.478-6",
+        "NOMBRE": "COOPERATIVA COLANTA",
+        "DIRECCION": "CALLE 74 No 64 A 51",
+        "TELEFONO": "4455555"
+    },
+    {
+        "NIT": "890.904.996-1",
+        "NOMBRE": "EMPRESAS PUBLICAS DE MEDELLIN E.S.P",
+        "DIRECCION": "CARRERA 58 N° 42-125",
+        "TELEFONO": "3808080 - 3806900"
+    },
+    {
+        "NIT": "890.905.790-4",
+        "NOMBRE": "COLDEPLAST S.A.S.",
+        "DIRECCION": "CARRERA 42 N° 53 - 116 AUTOP SUR",
+        "TELEFONO": "3720111"
+    },
+    {
+        "NIT": "890.907.245-0",
+        "NOMBRE": "ARANGO HERMANOS S.A.S.",
+        "DIRECCION": "CARRERA 31 N° 30 - 15 PARQUE PRINCIPAL",
+        "TELEFONO": "8608129"
+    },
+    {
+        "NIT": "890.907.406-1",
+        "NOMBRE": "PLASTICOS TRUHER S.A.",
+        "DIRECCION": "CALLE 67 SUR No 48 B 95",
+        "TELEFONO": "3051100"
+    },
+    {
+        "NIT": "890.908.196-2",
+        "NOMBRE": "LABORATORIOS HIGIETEX S.A.S",
+        "DIRECCION": "CARRERA 50A No 43-13 PARQUE INDUST. SATEXCO BOD 119",
+        "TELEFONO": "4484782"
+    },
+    {
+        "NIT": "890.908.493-5",
+        "NOMBRE": "COMESTIBLES DAN S.A.",
+        "DIRECCION": "CARRERA 41 No 46 - 81",
+        "TELEFONO": "3704000"
+    },
+    {
+        "NIT": "890.910.187-2",
+        "NOMBRE": "GRIFERIA NACIONAL LTDA.",
+        "DIRECCION": "CARRERA 65 N° 35 - 35",
+        "TELEFONO": "3710068"
+    },
+    {
+        "NIT": "890.912.284-8",
+        "NOMBRE": "CREACIONES APPAREL S.A.",
+        "DIRECCION": "CALLE 76 N° 48 - 49",
+        "TELEFONO": "2814020"
+    },
+    {
+        "NIT": "890.916.911-6",
+        "NOMBRE": "INCOLMOTOS-YAMAHA S.A.",
+        "DIRECCION": "COSTADO ORIENTAL KM 20 AUTOPISTA NORTE",
+        "TELEFONO": "3099010"
+    },
+    {
+        "NIT": "890.917.020-3",
+        "NOMBRE": "DISTRIBUIDORA DE TEXTILES Y CONFECCIONES S.A.",
+        "DIRECCION": "CARRERA 48 N° 32 SUR - 29",
+        "TELEFONO": "339 50 00"
+    },
+    {
+        "NIT": "890.917.295-1",
+        "NOMBRE": "COLORQUIMICA S.A.",
+        "DIRECCION": "CALLE 77 SUR N° 53 - 51",
+        "TELEFONO": "3021717"
+    },
+    {
+        "NIT": "890.917.398-1",
+        "NOMBRE": "MINERALES INDUSTRIALES S.A.",
+        "DIRECCION": "CARRERA 48 No 72 SUR 01",
+        "TELEFONO": "288 99 25"
+    },
+    {
+        "NIT": "890.920.001-4",
+        "NOMBRE": "EL ZARZAL S.A.",
+        "DIRECCION": "CARRERA 65 N 74 -75 INT 142",
+        "TELEFONO": "442 2020"
+    },
+    {
+        "NIT": "890.922.265-0",
+        "NOMBRE": "INGENIEROS DISEÑADORES ASOCIADOS S.A.",
+        "DIRECCION": "CARRERA 75 48 A-27 SECTOR ESTADIO",
+        "TELEFONO": "444 6166"
+    },
+    {
+        "NIT": "890.922.670-0",
+        "NOMBRE": "ALIMENTOS FRIKO S.A.S.",
+        "DIRECCION": "VEREDA LA MIEL KM 2",
+        "TELEFONO": "2783333"
+    },
+    {
+        "NIT": "890.930.614-1",
+        "NOMBRE": "COMERCIAL Y SERVICIOS LARCO S.A.",
+        "DIRECCION": "CALLE 6 No 50 - 80",
+        "TELEFONO": "3603600"
+    },
+    {
+        "NIT": "890.930.831-3",
+        "NOMBRE": "ARCOLI S.A.S.",
+        "DIRECCION": "CARRERA 85 N 63 - 1",
+        "TELEFONO": "2641188"
+    },
+    {
+        "NIT": "890.933.408-4",
+        "NOMBRE": "CLINICA OFTALMOLOGICA DE ANTIOQUIA S.A.",
+        "DIRECCION": "CARRERA 48 N° 19A - 40 ED. TORRE MEDICA",
+        "TELEFONO": "444 00 90"
+    },
+    {
+        "NIT": "890.935.900-6",
+        "NOMBRE": "TOSTADITOS SUSANITA S.A.",
+        "DIRECCION": "CALLE 9C SUR  No 50FF-81",
+        "TELEFONO": "4484644"
+    },
+    {
+        "NIT": "890.936.008-5",
+        "NOMBRE": "INDUSTRIAS BIFFI LTDA",
+        "DIRECCION": "CARRERA 51C N° 13 SUR 35",
+        "TELEFONO": "2851736"
+    },
+    {
+        "NIT": "890.938.344-4",
+        "NOMBRE": "SAIT S.A.",
+        "DIRECCION": "CALLE 87D SUR  No 47G-53",
+        "TELEFONO": "3010506"
+    },
+    {
+        "NIT": "890.941.103-7",
+        "NOMBRE": "EQUIELECT S.A.S.",
+        "DIRECCION": "CARRERA 72 No. 30-53",
+        "TELEFONO": "4443133"
+    },
+    {
+        "NIT": "890.941.375-0",
+        "NOMBRE": "PLASTINOVO S.A.S.",
+        "DIRECCION": "CARRERA 55 N° 79 C SUR 02",
+        "TELEFONO": "379 20 20"
+    },
+    {
+        "NIT": "890.943.055-0",
+        "NOMBRE": "SUCONEL S.A.",
+        "DIRECCION": "CARRERA 53 No 50 - 51 OFC 506",
+        "TELEFONO": "448 78 30"
+    },
+    {
+        "NIT": "890.945.791-4",
+        "NOMBRE": "PRODUCTOS Y SELLANTES TECNICOS COLOMBIA S.A.",
+        "DIRECCION": "CARRERA 50 N° 98 SUR 103",
+        "TELEFONO": "3207300"
+    },
+    {
+        "NIT": "890.980.040-8",
+        "NOMBRE": "UNIVERSIDAD DE ANTIOQUIA",
+        "DIRECCION": "CALLE 67 N° 53 - 108",
+        "TELEFONO": "219 52 70"
+    },
+    {
+        "NIT": "890.981.683-8",
+        "NOMBRE": "CORPAUL",
+        "DIRECCION": "CARRERA 52 A 39 - 80",
+        "TELEFONO": "448 05 50"
+    },
+    {
+        "NIT": "890.983.722-6",
+        "NOMBRE": "ESCUELA DE INGENIERIA DE ANTIOQUIA.",
+        "DIRECCION": "KM 2 200 VTE AEROPUERTO JOSE MARIA CORDOBA",
+        "TELEFONO": "354 90 90"
+    },
+    {
+        "NIT": "891.401.858-6",
+        "NOMBRE": "PIMPOLLO S.A.S.",
+        "DIRECCION": "CALLE 24F  94-51 PORTERIA 4",
+        "TELEFONO": "412 12 05"
+    },
+    {
+        "NIT": "900.014.876-0",
+        "NOMBRE": "INGEBIOMEDICA S.A.S",
+        "DIRECCION": "CIRCULAR 3 N° 68B 25 APT 301",
+        "TELEFONO": "3113259513"
+    },
+    {
+        "NIT": "900.020.215-7",
+        "NOMBRE": "ENVICARNICOS EICE",
+        "DIRECCION": "CARRERA 48 N° 49B SUR 45",
+        "TELEFONO": "370 4540"
+    },
+    {
+        "NIT": "900.043.170-3",
+        "NOMBRE": "TINTATEX S.A",
+        "DIRECCION": "KM 41 AUTOPISTA MED-BOG VEREDA BELEN",
+        "TELEFONO": "5615611"
+    },
+    {
+        "NIT": "900.062.516-9",
+        "NOMBRE": "COLORETTO S.A.",
+        "DIRECCION": "CARRERA 49 No 81 SUR 90",
+        "TELEFONO": "3011542"
+    },
+    {
+        "NIT": "900.186.643-9",
+        "NOMBRE": "MERCAFACIL INDUSTRIAL S.A.S",
+        "DIRECCION": "CARRERA 72 No 26 A 40",
+        "TELEFONO": "4489761"
+    },
+    {
+        "NIT": "900.204.934-5",
+        "NOMBRE": "SAC SISTEMAS DE AIRE COMPRIMIDO LTDA.",
+        "DIRECCION": "DIAGONAL 52 N° 42 - 54.",
+        "TELEFONO": "4832666"
+    },
+    {
+        "NIT": "900.222.241-6",
+        "NOMBRE": "DISMECATRONICA INGENIERIA S.A.S.",
+        "DIRECCION": "DIAG. 40  No 32-07",
+        "TELEFONO": "4443116"
+    },
+    {
+        "NIT": "900.259.539-5",
+        "NOMBRE": "INSTRUEQUIPOS INGENIERIA S.A.S.",
+        "DIRECCION": "CRA 48  No 75-68",
+        "TELEFONO": "4446053"
+    },
+    {
+        "NIT": "900.260.723-6",
+        "NOMBRE": "SUMINISTROS ELÉCTRICOS Y DE CONTROL S.A.S.",
+        "DIRECCION": "CARRERA 80 B No. 34 A 14 BARRIO LA CASTELLANA",
+        "TELEFONO": "444 4630"
+    },
+    {
+        "NIT": "900.271.749-4",
+        "NOMBRE": "MULTIAIRE MEDELLIN S.A.S",
+        "DIRECCION": "CARRERA 56 51-  53  INT 102",
+        "TELEFONO": "4449928"
+    },
+    {
+        "NIT": "900.277.579-6",
+        "NOMBRE": "CORIOLIS SOLUCIONES S.A.S.",
+        "DIRECCION": "CARRERA 41 N° 38 A SUR 34",
+        "TELEFONO": "444 89 94"
+    },
+    {
+        "NIT": "900.278.301-0",
+        "NOMBRE": "INCA INGENIERIA Y CONTROL LTDA",
+        "DIRECCION": "CALLE 64 No 49-14",
+        "TELEFONO": "367 91 21"
+    },
+    {
+        "NIT": "900.279.151-7",
+        "NOMBRE": "METROLOGIC COLOMBIA S.A.S.",
+        "DIRECCION": "CALLE 60 SUR N° 44-51",
+        "TELEFONO": "444 14 17"
+    },
+    {
+        "NIT": "900.292.160-7",
+        "NOMBRE": "21 GRADOS S.A.S.",
+        "DIRECCION": "CARRERA 51B # 12 SUR 32",
+        "TELEFONO": "444 6292"
+    },
+    {
+        "NIT": "900.296.426-9",
+        "NOMBRE": "C.I. M&M INSTRUMENTOS TECNICOS S.A.S.",
+        "DIRECCION": "CRA 43 No 50 - 88",
+        "TELEFONO": "2399375"
+    },
+    {
+        "NIT": "900.318.796-5",
+        "NOMBRE": "PSI AUTOMATIZACIÓN S.A.S.",
+        "DIRECCION": "CALLE 42 No. 38 C 45",
+        "TELEFONO": "5775570"
+    },
+    {
+        "NIT": "900.326.706-6",
+        "NOMBRE": "PANAMERICANA DE ALIMENTOS S.A.S.",
+        "DIRECCION": "KM 35, 4 AUTOP. MED-BOGOTA VDA LA LAJA",
+        "TELEFONO": "4444362"
+    },
+    {
+        "NIT": "900.338.494-1",
+        "NOMBRE": "TABLEMAC MDF S.A.S.",
+        "DIRECCION": "VIA HATILLO BARBOSA KM 1 3 ANTES DE LA CABECERA MUNICIPAL",
+        "TELEFONO": "4065044"
+    },
+    {
+        "NIT": "900.345.822-3",
+        "NOMBRE": "ALL COMERCIAL S.A.S.",
+        "DIRECCION": "CARRERA 56 No 50 - 24",
+        "TELEFONO": "4486963"
+    },
+    {
+        "NIT": "900.347.801-8",
+        "NOMBRE": "IMC AUTOMATIZACION Y CONTROL S.A.S.",
+        "DIRECCION": "CARRERA 59A CALLE 8 - 71 IN202",
+        "TELEFONO": "4441794"
+    },
+    {
+        "NIT": "900.366.264-3",
+        "NOMBRE": "PRODUCTOS AVIÑON S A S.",
+        "DIRECCION": "CARRERA 54 N° 79 AA SUR – 190",
+        "TELEFONO": "4443999"
+    },
+    {
+        "NIT": "900.366.965-8",
+        "NOMBRE": "GREEN GROUP S.A.S.",
+        "DIRECCION": "CALLE 12 SUR N° 50C - 34",
+        "TELEFONO": "444 73 36"
+    },
+    {
+        "NIT": "900.376.509-5",
+        "NOMBRE": "IOMICROM S.A.S.",
+        "DIRECCION": "CARRERA 43A CALLE 61 SUR 152 IN 189",
+        "TELEFONO": "378 2520"
+    },
+    {
+        "NIT": "900.381.091-9",
+        "NOMBRE": "TOMA VIDA S.A.S.",
+        "DIRECCION": "CALLE 73 SUR N° 45A - 44",
+        "TELEFONO": "3780072"
+    },
+    {
+        "NIT": "900.391.516-1",
+        "NOMBRE": "SERVICIOS & MONTAJES INTEGRALES S.A.S.",
+        "DIRECCION": "DIAGONAL 77 C No 16 B 67",
+        "TELEFONO": "382 56 37"
+    },
+    {
+        "NIT": "900.393.184-7",
+        "NOMBRE": "ANTIADHERENTES Y RECUBRIMIENTOS S.A.S.",
+        "DIRECCION": "CALLE 7 N° 50 - 137",
+        "TELEFONO": "444 78 10"
+    },
+    {
+        "NIT": "900.399..380-1",
+        "NOMBRE": "Z",
+        "DIRECCION": "CARRERA 16 No 79-76 OF 302",
+        "TELEFONO": "530 16 71"
+    },
+    {
+        "NIT": "900.420..504-7",
+        "NOMBRE": "SOCIEDAD DEPOSTADORA DE CARNES S.A.S.",
+        "DIRECCION": "CALLE 46 A SUR 48 - 121",
+        "TELEFONO": "5964444"
+    },
+    {
+        "NIT": "900.422.989-4",
+        "NOMBRE": "EXCO TOOLING SOLUTIONS S.A.S.",
+        "DIRECCION": "ZF RIONEGRO VDA CHACHAFRUTO BG 212",
+        "TELEFONO": "5628755"
+    },
+    {
+        "NIT": "900.425.614-1",
+        "NOMBRE": "CAF COLOMBIA S.A.S.",
+        "DIRECCION": "CALLE 5 A 43 B 25 OF. 308",
+        "TELEFONO": "2685009"
+    },
+    {
+        "NIT": "900.428.845-1",
+        "NOMBRE": "SOLUCONTROL S.A.S.",
+        "DIRECCION": "CALLE 43 SUR N° 47 - 17 COND 16 APTO 423",
+        "TELEFONO": "3331262"
+    },
+    {
+        "NIT": "900.442.424-0",
+        "NOMBRE": "ENVASES Y EMPAQUES INNOVADORES S.A.S.",
+        "DIRECCION": "CALLE 55 No 67 B 63",
+        "TELEFONO": "430 49 00"
+    },
+    {
+        "NIT": "900.456.479-6",
+        "NOMBRE": "MEDICIONES INDUSTRIALES S.A.S.",
+        "DIRECCION": "AVENIDA 37 No 55 - 26 INT 11-11",
+        "TELEFONO": "4537934"
+    },
+    {
+        "NIT": "900.457517-2",
+        "NOMBRE": "PROSTEAM S.A.S",
+        "DIRECCION": "CALLE 42 No 67 - 23",
+        "TELEFONO": "4483966"
+    },
+    {
+        "NIT": "900.467.736-1",
+        "NOMBRE": "SISTEMAS ELECTRICOS Y CONTROL S.A.S.",
+        "DIRECCION": "CARRERA 56 No 50-73",
+        "TELEFONO": "4482021"
+    },
+    {
+        "NIT": "900.485.006-1",
+        "NOMBRE": "PORTAFOLIO TEXTIL S.A.S",
+        "DIRECCION": "CALLE 10 SUR N° 51 C 77 P6",
+        "TELEFONO": "3616699"
+    },
+    {
+        "NIT": "900.494.665 - 1",
+        "NOMBRE": "BICOMRED S.A.S.",
+        "DIRECCION": "Cra. 82 Trv. 45 C 41 Int. 402",
+        "TELEFONO": "4161450"
+    },
+    {
+        "NIT": "900.498.601-9",
+        "NOMBRE": "TERRAVOCADO S .A .S .",
+        "DIRECCION": "CALLE24 N° 60 - 19",
+        "TELEFONO": "448 3772"
+    },
+    {
+        "NIT": "900.502.758-3",
+        "NOMBRE": "ECO - DESARROLLOS MINEROS S.A.S",
+        "DIRECCION": "CARRERA 43A N° 1 SUR 188",
+        "TELEFONO": "2664153"
+    },
+    {
+        "NIT": "900.503.942-7",
+        "NOMBRE": "FACTOR METROLOGIA S.A.S.",
+        "DIRECCION": "CARRERA 18 N° 70 - 20 CAÑO CRISTALES CS 45",
+        "TELEFONO": "735 00 84"
+    },
+    {
+        "NIT": "900.504.171-1",
+        "NOMBRE": "MAQUINARIA Y REPUESTOS BRITEX S.A.S.",
+        "DIRECCION": "CALLE 49B N° 64 B 112 IN 206 BRR SURAMERICANA",
+        "TELEFONO": "2603786"
+    },
+    {
+        "NIT": "900.516.098-1",
+        "NOMBRE": "ELECTROMECANICOS INGENIERIA S.A.S.",
+        "DIRECCION": "CALLE 38 N°23 - 140 BARRIO EL POBLADO",
+        "TELEFONO": "6447506"
+    },
+    {
+        "NIT": "900.524.512-3",
+        "NOMBRE": "SISCONTROL MONTAJES Y AUTOMATIZACIONES S.A.S",
+        "DIRECCION": "CALLE 44 A No 48 A 21 ZONA IND. RIONEGRO BOD. 20",
+        "TELEFONO": "5626635"
+    },
+    {
+        "NIT": "900.525.588-7",
+        "NOMBRE": "SOLUCIONES WIGA S.A.S",
+        "DIRECCION": "MEDELLIN",
+        "TELEFONO": "2667874"
+    },
+    {
+        "NIT": "900.531.259-3",
+        "NOMBRE": "PROELECTRA DE COLOMBIA S.A.S.",
+        "DIRECCION": "CARRERA 49 CALLE 61 SUR 540 INT 174",
+        "TELEFONO": "448 41 81"
+    },
+    {
+        "NIT": "900.564.797-6",
+        "NOMBRE": "ANTIADHERENTES TECNICOS COLOMBIANOS S.A.S",
+        "DIRECCION": "CALLE 7 N° 50-137",
+        "TELEFONO": "444 78 10"
+    },
+    {
+        "NIT": "900.570.286-9",
+        "NOMBRE": "ERCO ENERGIA S.A.S.",
+        "DIRECCION": "CALLE 5 SUR N° 29 A 141",
+        "TELEFONO": "317 383 4414"
+    },
+    {
+        "NIT": "900.591.524-7",
+        "NOMBRE": "ARRENDACOM S.A.S.",
+        "DIRECCION": "CARRERA 43 A CALLE 1-50 INT 857",
+        "TELEFONO": "3128015"
+    },
+    {
+        "NIT": "900.602.029-1",
+        "NOMBRE": "LADRILLERA TEJAR SANTA CECILIA S.A.S.",
+        "DIRECCION": "CALLE 18 N° 94 -65 BELEN ALTAVISTA",
+        "TELEFONO": "238 11 06"
+    },
+    {
+        "NIT": "900.643.234-0",
+        "NOMBRE": "MGM INNOVA ENERGY SERVICES S.A.S",
+        "DIRECCION": "CARRERA 43 A N° 1 - 50 TORRE 4 OF.315",
+        "TELEFONO": "236 05 84"
+    },
+    {
+        "NIT": "900.702.779-6",
+        "NOMBRE": "COMERCIALIZADORA DE PRODUCTOS APICOLAS S.A.S.",
+        "DIRECCION": "CALLE 79 SUR 46 - 83",
+        "TELEFONO": "2093114"
+    },
+    {
+        "NIT": "900.718.257-3",
+        "NOMBRE": "CORRUMED S.A.S.",
+        "DIRECCION": "CALLE 100 SUR 52 A 194",
+        "TELEFONO": "3785000"
+    },
+    {
+        "NIT": "900.739848-6",
+        "NOMBRE": "INVERSIONES MSI S.A.S.",
+        "DIRECCION": "CARRERA 80C No 34-18",
+        "TELEFONO": "4440758"
+    },
+    {
+        "NIT": "900.747.207-9",
+        "NOMBRE": "GARWA S.A.S.",
+        "DIRECCION": "CL 47D No 72 - 159 AP 501",
+        "TELEFONO": "313 732 27 97"
+    },
+    {
+        "NIT": "900.784.477-8",
+        "NOMBRE": "DENTOMAT S.A.S.",
+        "DIRECCION": "CALLE 49 SUR N° 43A 26 INT 301",
+        "TELEFONO": "322 17 55"
+    },
+    {
+        "NIT": "98549931",
+        "NOMBRE": "RICARDO MARTINEZ RIZO",
+        "DIRECCION": "CALLE 72 SUR N° 34 - 61 CA 19",
+        "TELEFONO": "597 93 50"
+    },
+    {
+        "NIT": "98.582.659-6",
+        "NOMBRE": "LUIS EDUARDO VELASQUEZ - FRICAR",
+        "DIRECCION": "CALLE 62 No 56 A 50",
+        "TELEFONO": "5110672"
+    },
+    {
+        "NIT": "SERVIREFRIAIRE S.A.",
+        "NOMBRE": "800.115.448-2",
+        "DIRECCION": "CARRERA 50D N° 6 SUR -34",
+        "TELEFONO": "360 02 40"
+    }
+]
+}

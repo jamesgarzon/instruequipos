@@ -1,0 +1,13 @@
+{
+    "vendedores": [{
+        "username": "james",
+        "nombre": "James",
+        "apellido": "Garzón"
+    },
+    {
+        "username": "andres",
+        "nombre": "Andres",
+        "apellido": "Cardona"
+    }
+    ]
+}
