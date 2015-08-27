@@ -1,8 +1,7 @@
 <?php
 
 function ConectarDB(){
-	echo "adfasdfadf";
-	$conexion = mysqli_connect("1","root","root","Ventas") or die("Error " . mysqli_error($conexion));     
+	$conexion = mysqli_connect("localhost","root","","ventas") or die("Error " . mysqli_error($conexion));     
     return $conexion;
 }
 

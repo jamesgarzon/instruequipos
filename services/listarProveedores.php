@@ -2,12 +2,11 @@
 require('../SQL/ListarProveedoresSQL.php');
 
 
-
 //Variables Globales
 $retornoServicio = array();
 
  
-$listaReservas = listarSalasSQL();
+$listaReservas = listarProveedoresSQL();
 
 for($i = 0; $i < sizeof($listaReservas);$i++) {
 	

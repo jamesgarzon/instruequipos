@@ -1,9 +1,8 @@
 <?php
 require('ConexionDB.php');
 
-function listarSalasSQL(){
+function listarProveedoresSQL(){
 	$conexion = ConectarDB();
-	echo "string";
 	$sql ="SELECT *
 	FROM Proveedor
 	WHERE 1";

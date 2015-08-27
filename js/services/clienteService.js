@@ -2,9 +2,10 @@
 insuranceApp.factory('clienteService',function($http){
 	return{
 		listarClientes:function(scope){
-			var $promise=$http.get('js/serviciosWeb/clientes.json'); //send data to user.php
+			var $promise=$http.get('services/listarProveedores.php'); //send data to user.php
 			$promise.then(function(msg){
-				scope.clientes = msg.data.CLIENTES;
+				alert(JSON.stringify(msg.data))
+				scope.clientes = msg.data;
 			});
 		}
 	

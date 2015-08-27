@@ -10,7 +10,7 @@
 <!-- Selección del cliente -->
  	<div class="form-group">
 		<label for="seleccionCliente"> Cliente: </label>
-	     <select class="form-control"  name="seleccionCliente" ng-model="pedidoCtrl.clienteSeleccionado" ng-options="cliente as cliente.NOMBRE + ' | '+ cliente.NIT for cliente in pedidoCtrl.clientes  | filter:pedidoCtrl.filtroNombre | orderBy:'NOMBRE'" required>
+	     <select class="form-control"  name="seleccionCliente" ng-model="pedidoCtrl.clienteSeleccionado" ng-options="cliente as cliente.nombre + ' | '+ cliente.NITProveedor for cliente in pedidoCtrl.clientes  | filter:pedidoCtrl.filtroNombre | orderBy:'nombre'" required>
       	<option value="">-- Seleccione un cliente --</option>
 	    </select>
 
