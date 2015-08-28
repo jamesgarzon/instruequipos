@@ -1,6 +1,50 @@
-
-
 <div class="container">
+
+	<div class="panel panel-primary">
+
+		<div class="panel-heading">
+			<h3 class="panel-title">Información general</h3>
+		</div>
+
+		<div class="panel-body">
+
+		 	<div class="form-group">
+		 		<div class="row">
+		 			<div class="col-xs-4">
+						<label for="seleccionCliente"> Cliente: </label>
+					    <select class="form-control"  name="seleccionCliente" ng-model="pedidoCtrl.clienteSeleccionado" ng-options="cliente as cliente.nombre + ' | '+ cliente.NITProveedor for cliente in pedidoCtrl.clientes  | filter:pedidoCtrl.filtroNombre | orderBy:'nombre'" required>
+				      	<option value="">-- Seleccione un cliente --</option>
+					    </select>
+				    </div>
+
+				    <div class="col-xs-4">
+			    		<label for="seleccionCliente"> Vendedor: </label>
+					     <select class="form-control"  name="seleccionVendedor" ng-model="pedidoCtrl.vendedorSeleccionado" ng-options="vendedor as vendedor.nombre + ' ' + vendedor.apellido for vendedor in pedidoCtrl.vendedores" required>
+				      	<option value="">-- Seleccione un vendedor --</option>
+					    </select>
+					</div>
+
+					<div class="col-xs-2">
+			    		<label for="seleccionFechaSolicitud"> Fecha de solicitud: </label>
+	     				<input type="date" class="form-control"  name="seleccionFechaSolicitud" ng-model="pedidoCtrl.fechaSolicitud" required>
+					</div>
+
+					<div class="col-xs-2">
+			    		<label for="seleccionFechaEntrega"> Fecha de Entrega: </label>
+	    				<input type="date" class="form-control"  name="seleccionFechaEntrega" ng-model="pedidoCtrl.fechaEntrega" required>
+					</div>
+
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
 <div class="panel">
 <form class="form-inline" style="width: 100%;">
 
@@ -8,16 +52,7 @@
 	<h1 align="center">Orden de pedido</h1>
 
 <!-- Selección del cliente -->
- 	<div class="form-group">
-		<label for="seleccionCliente"> Cliente: </label>
-	     <select class="form-control"  name="seleccionCliente" ng-model="pedidoCtrl.clienteSeleccionado" ng-options="cliente as cliente.nombre + ' | '+ cliente.NITProveedor for cliente in pedidoCtrl.clientes  | filter:pedidoCtrl.filtroNombre | orderBy:'nombre'" required>
-      	<option value="">-- Seleccione un cliente --</option>
-	    </select>
 
-	    <label for="filtroNombreCliente"> Filtrar cliente: </label>
-	     <input type="text" class="form-control"  name="filtroNombreCliente" ng-model="pedidoCtrl.filtroNombre">
-	    </select>
-	</div>
 
 
 <!-- Selección del vendedor -->
@@ -32,14 +67,14 @@
 	<div class="form-group">
 		<label for="seleccionFechaSolicitud"> Fecha de solicitud: </label>
 	     <input type="date" class="form-control"  name="seleccionFechaSolicitud" ng-model="pedidoCtrl.fechaSolicitud" required>
-	    </select>
+	  
 	</div>
 
 <!-- Selección de la fecha de entrega -->
 	<div class="form-group">
 		<label for="seleccionFechaEntrega"> Fecha de Entrega: </label>
 	     <input type="date" class="form-control"  name="seleccionFechaEntrega" ng-model="pedidoCtrl.fechaEntrega" required>
-	    </select>
+	    
 	</div>
 
 	<!-- <div class="form-group">
