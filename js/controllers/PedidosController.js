@@ -28,7 +28,6 @@ insuranceApp.controller('PedidosController', function (clienteService, vendedorS
 			this.total = 0;
 		for (var i = this.Items.length - 1; i >= 0; i--) {
 			this.total += this.Items[i]['VENTA'] * (this.Items[i]['IVA']+100)/100 * this.Items[i]['CANTIDAD'];
-			alert(this.Items[i]['VENTA']);
 		};
 	}
 

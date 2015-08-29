@@ -7,7 +7,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular-route.min.js"></script>
 		
 
-		<script src="js/index.js"></script>
+		<script src="js/app.js"></script>
 		<script src="js/controllers/PedidosController.js"></script>
 
 		<script src="js/services/clienteService.js"></script>
@@ -18,7 +18,7 @@
 		<title>Instruequipos</title>
 
 	<body >
-<nav class="navbar navbar-static-top bg-primary">
+<nav class="navbar navbar-static-top navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
