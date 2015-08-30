@@ -107,7 +107,7 @@
 						</div>
 					</div>
 				</div>	
-
+</form>
 				<!--  -->
 <table class="table table-condensed">
 				<thead>
@@ -125,10 +125,10 @@
 				<tbody class="tbody" ng-repeat="item in pedidoCtrl.Items track by $index">
 					<td>{{$index+1}}</td>
 					<td>{{item.CODIGO}}</td>
-					<td>{{item.DESCRIPCION}}</td>
-					<td>{{item.VENTA}}</td>
-					<td>{{item.IVA}}</td>
-					<td align="center">{{item.CANTIDAD}}</td>
+					<td><span editable-text="item.DESCRIPCION"> {{item.DESCRIPCION}} </span></td>
+					<td><span editable-text="item.VENTA"> {{item.VENTA}} </span></td>
+					<td><span editable-text="item.IVA"> {{item.IVA}} </span></td>
+					<td align="center"> <span editable-text="item.CANTIDAD"> {{item.CANTIDAD}} </span></td>
 					<td>{{(item.VENTA*((item.IVA+100)/100))*item.CANTIDAD | currency:$COP}} </td>
 					<td>
 					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
@@ -147,7 +147,7 @@
 
 				<!--  -->
 				
-			</form>
+			
 		</div>
 	</div>
 

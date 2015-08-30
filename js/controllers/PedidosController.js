@@ -2,6 +2,9 @@ insuranceApp.controller('PedidosController', function (clienteService, vendedorS
 	
 	this.Items = [];
 	this.total = 0;
+	this.user = {};
+	this.user.name="James"
+
 	clienteService.listarClientes(this);
 	
 
@@ -32,7 +35,35 @@ insuranceApp.controller('PedidosController', function (clienteService, vendedorS
 	}
 
 
-	
+		  this.agregarItem2 = function() {
+    	this.Items.push({
+			CODIGO:'',
+			DESCRIPCION:'',
+			VENTA:'',
+			IVA:null,
+			CANTIDAD:null
+		});
+
+		this.productoSeleccionado = {};
+		this.calcularTotal();
+  };
+
+   this.eliminarItem = function(index) {
+    this.Items.splice(index, 1);
+  };
+
+  this.guardarItem = function (item) {
+  	
+  }
+
+
+   this.saveUser = function(data, id) {
+    //$scope.user not updated yet
+    angular.extend(data, {id: id});
+    return $http.post('/saveUser', data);
+  };
+
+
 
 
 });

@@ -79,13 +79,21 @@
  <div ng-view></div>
 
 <script src="lib/jquery/jquery.min.js"></script>
-<script src="lib/jquery/jquery.min.map"></script>
+<!-- <script src="lib/jquery/jquery.min.map"></script> -->
 
+  <link rel="stylesheet" href="css/style.css">
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="lib/boostrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/boostrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="lib/angular-xeditable/css/xeditable.css">
 
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="lib/boostrap/js/bootstrap.min.js"></script>
+  <script src="lib/boostrap/js/bootstrap.min.js"></script>
+  <script src="lib/angular-xeditable/js/xeditable.min.js"></script>
+  <!-- // <script src="lib/angular-xeditable/js/xeditable.js"></script> -->
+	<script src="lib/ui-bootstrap-tpls-0.13.3.min.js"></script>
+
 	</body>
 </html>
+
+<!-- 98375 -->
