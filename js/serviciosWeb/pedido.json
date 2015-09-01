@@ -1,0 +1,33 @@
+{
+    "cliente": {
+        "nit": "900.457.668-5",
+        "nombre": "ALILMENTOS CARNICOS S.A.S.",
+        "telefono": "5531478",
+        "direccion": "El carmelo calle 15 # 78-88"
+    },
+    "vendedor": "james.garzon",
+    "comprador": "carlos",
+    "nroPedido": "1",
+    "subtotal": "506004",
+    "iva": "16",
+    "fechaSolicitud": "12-09-2015 14:25:00",
+    "fechaEntrega": "12-20-2015 14:25:00",
+    "tipoPago": "credito",
+    "ordenCompra": "231564",
+    "detalles": [
+        {
+            "codigo": "5070",
+            "descripcion": "ATE-1S TEMPORIZADOR ANALOGO 0-1S 48x48 110/220VAC AL TRAB",
+            "precio": "506004",
+            "iva": "16",
+            "cantidad": "1"
+        },
+        {
+            "codigo": "11010",
+            "descripcion": "RELE DE ESTADO SOLIDO 24 V 700-TBS124 MONTAJE RIEL",
+            "precio": "100000",
+            "iva": "16",
+            "cantidad": "1"
+        }
+    ]
+}

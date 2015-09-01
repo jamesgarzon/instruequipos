@@ -4,15 +4,18 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular-route.min.js"></script>
-		
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular-route.min.js"></script>
+		<script src="https://rawgithub.com/gsklee/ngStorage/master/ngStorage.js"></script>
+
 
 		<script src="js/app.js"></script>
-		<script src="js/controllers/PedidosController.js"></script>
+    <script src="js/controllers/PedidosController.js"></script>
+		<script src="js/controllers/PedidoController.js"></script>
 
 		<script src="js/services/clienteService.js"></script>
 		<script src="js/services/vendedorService.js"></script>
-		<script src="js/services/productoService.js"></script>
+    <script src="js/services/productoService.js"></script>
+		<script src="js/services/pedidoService.js"></script>
 
 
 		<title>Instruequipos</title>

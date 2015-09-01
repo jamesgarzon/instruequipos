@@ -1,0 +1,213 @@
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-md-9 col-md-offset-1">
+	<div class="panel panel-primary">
+
+		<div class="panel-heading">
+			<h3 class="panel-title">Información general</h3>
+		</div>
+
+		<div class="panel-body">
+
+		 	<div class="form-group">
+		 		<div class="row">
+		 			<div class="col-xs-4">
+						<label for="seleccionCliente"> Cliente: </label>
+					    <select class="form-control"  name="seleccionCliente" ng-model="pedidosCtrl.clienteSeleccionado" ng-options="cliente as cliente.nombre + ' | '+ cliente.NITProveedor for cliente in pedidosCtrl.clientes  | filter:pedidosCtrl.filtroNombre | orderBy:'nombre'" required>
+				      	<option value="">-- Seleccione un cliente --</option>
+					    </select>
+				    </div>
+
+				    <div class="col-xs-4">
+			    		<label for="seleccionCliente"> Vendedor: </label>
+					     <select class="form-control"  name="seleccionVendedor" ng-model="pedidosCtrl.vendedorSeleccionado" ng-options="vendedor as vendedor.nombre + ' ' + vendedor.apellido for vendedor in pedidosCtrl.vendedores" required>
+				      	<option value="">-- Seleccione un vendedor --</option>
+					    </select>
+					</div>
+
+					<div class="col-xs-2">
+			    		<label for="seleccionFechaSolicitud"> Fecha de solicitud: </label>
+	     				<input type="date" class="form-control"  name="seleccionFechaSolicitud" ng-model="pedidosCtrl.fechaSolicitud" required>
+					</div>
+
+					<div class="col-xs-2">
+			    		<label for="seleccionFechaEntrega"> Fecha de Entrega: </label>
+	    				<input type="date" class="form-control"  name="seleccionFechaEntrega" ng-model="pedidosCtrl.fechaEntrega" required>
+					</div>
+
+			    </div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title">REGISTRO DE PRODCUTOS</h3>
+		</div>
+		<div class="panel-body">
+			<form ng-submit="pedidosCtrl.agregarItem(pedidosCtrl.productoSeleccionado)" class="form">
+				<div class="form-group">
+			 		<div class="row">
+			 			<div class="col-xs-9">
+							<label for="seleccionProducto"> producto: </label>
+						     <select class="form-control input-sm"  name="seleccionProducto" ng-model="pedidosCtrl.productoSeleccionado" ng-options="producto as producto.CODIGO + ' | ' + producto.DESCRIPCION for producto in pedidosCtrl.productos | filter:pedidosCtrl.filtroProducto | orderBy:'CODIGO'" required>
+					      	<option value="">-- Seleccione un producto --</option>
+						    </select>
+						</div>
+			 			<div class="col-xs-3">
+							<label for="filtroProducto"> Filtrar Producto: </label>
+					     	<input type="text" class="form-control"  name="filtroProducto" ng-model="pedidosCtrl.filtroProducto" placeholder="Escriba el producto a buscar">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="row">
+						<div class="col-xs-3">
+							<label for="codigoProducto"> Código: </label>
+			     			<input type="text" class="form-control"  name="codigoProducto" ng-model="pedidosCtrl.productoSeleccionado.CODIGO" readonly/>
+						</div>
+						<div class="col-xs-9">
+							<label for="DescripcionProducto"> Descripción: </label>
+			     			<input type="text" class="form-control"  name="DescripcionProducto" ng-model="pedidosCtrl.productoSeleccionado.DESCRIPCION" required>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="row">
+						<div class="col-xs-4">
+							<label for="IvaProducto">Iva:</label>
+							<div class="input-group">
+								<div class="input-group-addon">%</div>
+								<input type="number" class="form-control" id="IvaProducto" placeholder="Valor" ng-model="pedidosCtrl.productoSeleccionado.IVA" required>
+			      			</div>
+						</div>
+						<div class="col-xs-4">
+							<label for="ValorProducto">Valor unitario:</label>
+						    <div class="input-group">
+							    <div class="input-group-addon">$</div>
+							    <input type="number" class="form-control" id="ValorProducto" placeholder="Valor" ng-model="pedidosCtrl.productoSeleccionado.VENTA" required>
+						    </div>
+						</div>
+						<div class="col-xs-4">
+							<label for="CantidadProducto">Cantidad:</label>
+						    <div class="input-group">
+						      	<input type="number" class="form-control" id="CantidadProducto" text="11" placeholder="Valor" ng-init="pedidosCtrl.productoSeleccionado.CANTIDAD = 1" ng-model="pedidosCtrl.productoSeleccionado.CANTIDAD" min="1" required>
+						    </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="row">
+						<div class="col-xs-12 col-xs-offset-5">
+							 <button type="submit" class="btn btn-primary" >Ingresar</button>
+						</div>
+					</div>
+				</div>	
+			</form>
+		</div>
+	</div>
+
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title">ITEMS</h3>
+		</div>
+		<div class="panel-body table-responsive">
+			<table class="table table-hover table-condensed">
+			     <thead class="thead" ng-if="items != '[]'">
+					<td>Item</td>
+					<td>Código</td>
+					<td>Descripción</td>
+					<td>Precio Unit.</td>
+					<td>Iva</td>
+					<td>Cantidad</td>
+					<td>Total</td>
+					<td></td>
+					<td></td>
+				</thead>
+				<tbody class="tbody" ng-repeat="item in pedidosCtrl.Items track by $index">
+
+					<td>{{$index+1}}</td>
+					<td>    
+					      {{ item.CODIGO || 'empty' }}
+				  	</td>
+				    <td>
+					    <!-- editable username (text with validation) -->
+					    <span editable-text="item.DESCRIPCION" e-name="name" e-form="rowform"  e-required>
+					      {{ item.DESCRIPCION || 'empty' }}
+					    </span>
+				  	</td>
+				  	<td>
+					    <!-- editable username (text with validation) -->
+					    <span editable-number="item.VENTA" e-name="name" e-form="rowform"  e-required>
+					      {{ item.VENTA || 0}}
+					    </span>
+				  	</td>
+				  	<td>
+					    <!-- editable username (text with validation) -->
+					    <span editable-number="item.IVA" e-name="name" e-form="rowform"  e-required>
+					      {{ item.IVA || 0 }}
+					    </span>
+				  	</td>
+				  	<td>
+					    <!-- editable username (text with validation) -->
+					    <span editable-number="item.CANTIDAD" e-name="name" e-form="rowform"  e-required>
+					      {{ item.CANTIDAD || 0 }}
+					    </span>
+				  	</td>
+				  	<td>
+				  		{{(item.VENTA*((item.IVA+100)/100))*item.CANTIDAD | currency:$COP}} </td>
+					<td>
+
+				    <td style="white-space: nowrap">
+				        
+				        <form editable-form name="rowform"  onaftersave="pedidosCtrl.actualizarItems()" ng-show="rowform.$visible" class="form-buttons form-inline" >
+				          <button type="submit" ng-disabled="rowform.$waiting" class="btn btn-primary">
+				            Guardar
+				          </button>
+				          <button type="button" ng-disabled="rowform.$waiting" ng-click="rowform.$cancel()" class="btn btn-default">
+				            Cancelar
+				          </button>
+				        </form>
+				        
+				        <div class="buttons" ng-show="!rowform.$visible">
+				          	<button class="btn btn-warning" ng-click="rowform.$show()"aria-label="Left Align">
+  							<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+  							</button>
+				          	<button class="btn btn-danger" ng-click="pedidosCtrl.eliminarItem($index)"aria-label="Left Align">
+  							<span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+				        </div>
+
+				    </td>
+				</tbody>
+  			</table>
+		</div>
+	</div>
+
+</div>
+	
+<div class="col-md-2">
+	<table class="table table-condensed">
+		<tr>
+			<td><h4 align="left">SubTotal:</h4></td>
+			<td><h4 align="right">{{pedidosCtrl.total | currency:$COP}}</h4></td>
+		</tr>
+		<tr>
+			<td><h4 align="left">Iva:</h4></td>
+			<td><h4 align="right">{{pedidosCtrl.total | currency:$COP}}</h4></td>
+		</tr>
+		<tr>
+			<td><h4 align="left">Total:</h4></td>
+			<td><h4 align="right">{{pedidosCtrl.total | currency:$COP}}</h4></td>
+		</tr>
+	</table>
+	
+</div>
+</div>
+</div>
+
+
+
