@@ -2,51 +2,86 @@
 	
 	<div class="row">
 		<div class="col-xs-4">
-		</table>
+	
 			<img ng-src="images/logo.png" class="img-responsive">
 		</div>
 		<div class="col-xs-8">
-			<h2 align="center">Órden de Pedido Nro:{{}}</h2>
+			<h2 align="center">Órden de Pedido Nro:{{pedidoCtrl.pedido.nroPedido | numberFixedLen:3 }}</h2>
 		</div>
 	</div>
 
-<hr>
+</br>
 	<div class="row">
 		<div class="col-xs-6">
 			<table class="table-condensed" style=" border: none;">
 			<small>
 
 			  <tr>
-			    <td>CLIENTE: </td>
-			    <td>{{pedidoCtrl.pedido.cliente.nombre}}</td>
+			    <td><small><strong>CLIENTE: </strong>{{pedidoCtrl.pedido.cliente.nombre}}</small></td>
 			  </tr>
 
 			  <tr>
-			    <td>COMPRADOR: </td>
-			    <td>{{pedidoCtrl.pedido.comprador}}</td>
+			    <td><small><strong>COMPRADO: </strong>{{pedidoCtrl.pedido.comprador}}</small></td>
 			  </tr>
 
 			  <tr>
-			    <td>ORDEN DE COMPRA: </td>
-			   	<td>{{pedidoCtrl.pedido.ordenCompra}}</td>
+			   	<td><small><strong>ORDEN DE COMPRA: </strong>  {{pedidoCtrl.pedido.ordenCompra}}</small></td>
 			  </tr>
 			
 			  <tr>
-			    <td>TELÉFONO: </td>
-			    <td>{{pedidoCtrl.pedido.cliente.telefono}}</td>
-			  
+			    <td><small><strong>TELÉFONO: </strong>{{pedidoCtrl.pedido.cliente.telefono}}</small></td>
 			  </tr>
 			  </small>
 			</table>
 		</div>
-		
 
+		<div class="col-xs-6">
+			<table class="table-condensed" style=" border: none;">
+			<small>
+
+			  <tr>
+			    <td><small><strong>VENDEDOR: </strong>{{pedidoCtrl.pedido.vendedor}}</small></td>
+			  </tr>
+
+			  <tr>
+			   	<td><small><strong>FECHA DE SOLICITUD: </strong>  {{pedidoCtrl.pedido.fechaSolicitud | date:"MM/dd/yyyy"}} </small></td>
+			  </tr>
+			
+			  <tr>
+			    <td><small><strong>FECHA DE ENTREGA: </strong>{{pedidoCtrl.pedido.fechaEntrega | date:"MM/dd/yyyy"}}</small></td>
+			  </tr>
+			  </small>
+			</table>
+		</div>
 	</div>
-		
-			</div>
-	
-</div>
+</br>
+	<div class="row">
+		<div class="col-xs-12">
+			<table class="table table-condensed">
+				<thead>
+				<td><strong>Item</strong></td>
+				<td><strong>Código</strong></td>
+				<td><strong>Descripción</strong></td>
+				<td><strong>Precio</strong></td>
+				<td><strong>Iva</strong></td>
+				<td><strong>Cantidad</strong></td>
+				<td><strong>Total</strong></td>
 
+				</thead>
+				<tbody class="tbody" ng-repeat="item in pedidoCtrl.pedido.detalles track by $index">
+					<td><small>{{$index+1}}</small></td>
+					<td><small>{{item.codigo}}</small></td>
+					<td><small>{{item.descripcion}}</small></td>
+					<td><small>{{item.precio}}</small></td>
+					<td><small>{{item.iva}}</small></td>
+					<td><small>{{item.cantidad}}</small></td>
+					<td><small>{{(item.precio*((item.iva+100)/100))*item.cantidad | currency:$COP}} </small></td>
+				</tbody>
+			</table>
+
+		</div>
+	</div>
+</div>
 
 
 

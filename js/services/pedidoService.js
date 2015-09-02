@@ -6,6 +6,8 @@ insuranceApp.factory('pedidoService',function($http){
 			$promise.then(function(msg){
 
 				scope.pedido = msg.data;
+				scope.pedido.fechaSolicitud = new Date(scope.pedido.fechaSolicitud);
+				scope.pedido.fechaEntrega = new Date(scope.pedido.fechaEntrega);
 			});
 		}
 	
