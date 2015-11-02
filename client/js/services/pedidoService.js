@@ -1,5 +1,5 @@
 'use strict';
-insuranceApp.factory('pedidoService',function($http){
+adminApp.factory('pedidoService',function($http){
 	return{
 		obtener:function(scope){
 			var $promise=$http.get('js/serviciosWeb/pedido.json'); //send data to user.php
@@ -10,7 +10,7 @@ insuranceApp.factory('pedidoService',function($http){
 				scope.pedido.fechaEntrega = new Date(scope.pedido.fechaEntrega);
 			});
 		}
-	
+
 	}
 
 });

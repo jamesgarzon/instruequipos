@@ -1,5 +1,5 @@
 'use strict';
-insuranceApp.factory('vendedorService',function($http){
+adminApp.factory('vendedorService',function($http){
 	return{
 		listarVendedores:function(scope){
 			var $promise=$http.get('js/serviciosWeb/vendedores.json'); //send data to user.php

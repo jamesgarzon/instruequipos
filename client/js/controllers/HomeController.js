@@ -1,0 +1,4 @@
+adminApp.controller('HomeController', function () {
+
+
+});

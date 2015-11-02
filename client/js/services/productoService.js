@@ -1,5 +1,5 @@
 'use strict';
-insuranceApp.factory('productoService',function($http){
+adminApp.factory('productoService',function($http){
 	return{
 		listarProductos:function(scope){
 			var $promise=$http.get('js/serviciosWeb/productos.json'); //send data to user.php
@@ -7,7 +7,7 @@ insuranceApp.factory('productoService',function($http){
 				scope.productos = msg.data.PRODUCTOS;
 			});
 		}
-	
+
 	}
 
 });

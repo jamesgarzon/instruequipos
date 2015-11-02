@@ -1,17 +1,17 @@
-insuranceApp.controller('PedidosController', function (clienteService, vendedorService, productoService, pedidoService,$localStorage) {
-	
+adminApp.controller('PedidosController', function (clienteService, vendedorService, productoService, pedidoService,$localStorage) {
+
 	this.Items = [];
 	this.total = 0;
 	this.user = {};
 	this.user.name="James"
 
 	clienteService.listarClientes(this);
-	
+
 	vendedorService.listarVendedores(this);
-	
+
 	productoService.listarProductos(this);
 
-	
+
 
 	this.mostrarItems = function () {
 		this.Items = JSON.parse($localStorage.items);
