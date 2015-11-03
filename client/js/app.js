@@ -12,7 +12,7 @@ adminApp.config(function($routeProvider) {
     })
     .when('/productos', {
       controller:'ProductosController as productosCtrl',
-      templateUrl:'client/views/Productos.html'
+      templateUrl:'client/views/productos/Productos.html'
     })
     .when('/pedido/:idPedido', {
       controller:'PedidoController as pedidoCtrl',

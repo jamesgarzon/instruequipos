@@ -1,5 +1,5 @@
 <?php
-require('../SQL/ListarProductosSQL.php');
+require('../../SQL/producto/ListarProductosSQL.php');
 
 //Variables Globales
 $retornoServicio = array();
@@ -16,7 +16,7 @@ for($i = 0; $i < sizeof($Productos);$i++) {
     $retornoServicio[$i]["iva"] = $Productos[$i]["iva"];
     $retornoServicio[$i]["stock"] = $Productos[$i]["stock"];
     $retornoServicio[$i]["es_materia_prima"] = $Productos[$i]["es_materia_prima"];
-    $retornoServicio[$i]["marca"] = $Productos[$i]["stock"];
+    $retornoServicio[$i]["marca"] = $Productos[$i]["marca"];
 
 }
 

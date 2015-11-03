@@ -1,0 +1,86 @@
+
+<div class="modal fade" id="modalActualizarProducto" tabindex="-1" role="dialog" aria-labelledby="modalActualizarProductoLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="modalActualizarProductoLabel">Nuevo pruducto</h3>
+      </div>
+      <div class="modal-body">
+
+
+        <form class="form-horizontal" ng-submit="actualizarProducto(productoAActualizar)">
+        <fieldset>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">*Código</label>
+          <div class="col-md-7">
+          <input ng-model="productoAActualizar.codigo" id="textinput" name="textinput" type="text" placeholder="123456" class="form-control input-md" required>
+          </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textarea">*Descripción</label>
+          <div class="col-md-7">
+            <textarea ng-model="productoAActualizar.detalle" class="form-control" id="textarea" name="textarea" required></textarea>
+          </div>
+        </div>
+
+
+        <!-- Select Basic -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="selectbasic">*Iva</label>
+          <div class="col-md-7">
+            <select ng-model="productoAActualizar.iva" id="selectbasic" name="selectbasic" class="form-control" required>
+              <option value="0">0%</option>
+              <option value="10">10%</option>
+              <option value="16">16%</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">*Precio Venta</label>
+          <div class="col-md-7">
+          <input ng-model="productoAActualizar.precio_venta" id="textinput" name="textinput" type="text" placeholder="$0" class="form-control input-md" required>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">*Precio Costo</label>
+          <div class="col-md-7">
+          <input ng-model="productoAActualizar.precio_costo" id="textinput" name="textinput" type="text" placeholder="$0" class="form-control input-md" required>
+          </div>
+        </div>
+
+
+
+        <!-- Select Basic -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="selectbasic">*Marca</label>
+          <div class="col-md-7">
+            <select ng-model="productoAActualizar.marca" id="selectbasic" name="selectbasic" class="form-control"
+            ng-options="marca.marca as marca.marca for marca in marcas" required>
+              <option value="">Seleccione una marca</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Crear Producto</button>
+        </div>
+
+        </fieldset>
+        </form>
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
